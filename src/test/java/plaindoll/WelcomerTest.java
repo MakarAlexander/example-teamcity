@@ -33,3 +33,4 @@ public class WelcomerTest {
 	public void welcomerSaysDayHunter(){
 		assertThat(welcomer.sayHunter(), containsString("Hunter"));	
 	}
+}
